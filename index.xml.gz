@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<repository increment='1403783645164' name='Local Hub' xmlns='http://www.osgi.org/xmlns/repository/v1.0.0'>
+<repository increment='1403785734508' name='Local Bundle Hub' xmlns='http://www.osgi.org/xmlns/repository/v1.0.0'>
   <resource>
     <capability namespace='osgi.identity'>
       <attribute name='osgi.identity' value='org.apache.felix.fileinstall'/>
@@ -3296,6 +3296,78 @@
       <directive name='filter' value='(&amp;(osgi.wiring.package=scala.runtime)(version&gt;=2.10.0)(!(version&gt;=3.0.0)))'/>
       <directive name='resolution' value='optional'/>
     </requirement>
+  </resource>
+  <resource>
+    <capability namespace='osgi.identity'>
+      <attribute name='osgi.identity' value='org.apache.felix.http.servlet-api'/>
+      <attribute name='type' value='osgi.bundle'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+    </capability>
+    <capability namespace='osgi.content'>
+      <attribute name='osgi.content' value='13fa48abf6a63300e4645383647ec2e6fb69a89541b1baa8aa0620843e5eecdc'/>
+      <attribute name='url' value='org.apache.felix.http.servlet-api/org.apache.felix.http.servlet-api-1.0.0.jar'/>
+      <attribute name='size' type='Long' value='69412'/>
+      <attribute name='mime' value='application/vnd.osgi.bundle'/>
+    </capability>
+    <capability namespace='osgi.wiring.bundle'>
+      <attribute name='osgi.wiring.bundle' value='org.apache.felix.http.servlet-api'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0'/>
+    </capability>
+    <capability namespace='osgi.wiring.host'>
+      <attribute name='osgi.wiring.host' value='org.apache.felix.http.servlet-api'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='javax.servlet'/>
+      <attribute name='version' type='Version' value='2.6.0'/>
+      <attribute name='bundle-symbolic-name' value='org.apache.felix.http.servlet-api'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0'/>
+      <directive name='uses' value='javax.servlet.annotation,javax.servlet.descriptor'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='javax.servlet.annotation'/>
+      <attribute name='version' type='Version' value='2.6.0'/>
+      <attribute name='bundle-symbolic-name' value='org.apache.felix.http.servlet-api'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0'/>
+      <directive name='uses' value='javax.servlet'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='javax.servlet.descriptor'/>
+      <attribute name='version' type='Version' value='2.6.0'/>
+      <attribute name='bundle-symbolic-name' value='org.apache.felix.http.servlet-api'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='javax.servlet.http'/>
+      <attribute name='version' type='Version' value='2.6.0'/>
+      <attribute name='bundle-symbolic-name' value='org.apache.felix.http.servlet-api'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0'/>
+      <directive name='uses' value='javax.servlet'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='javax.servlet'/>
+      <attribute name='version' type='Version' value='3.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.apache.felix.http.servlet-api'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='javax.servlet.annotation'/>
+      <attribute name='version' type='Version' value='3.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.apache.felix.http.servlet-api'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='javax.servlet.descriptor'/>
+      <attribute name='version' type='Version' value='3.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.apache.felix.http.servlet-api'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='javax.servlet.http'/>
+      <attribute name='version' type='Version' value='3.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.apache.felix.http.servlet-api'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0'/>
+    </capability>
   </resource>
   <resource>
     <capability namespace='osgi.identity'>
