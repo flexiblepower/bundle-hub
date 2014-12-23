@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<repository increment="1419336884815" name="Bundle Hub - Run" xmlns="http://www.osgi.org/xmlns/repository/v1.0.0">
+<repository increment="1419338672984" name="Temp" xmlns="http://www.osgi.org/xmlns/repository/v1.0.0">
   <resource>
     <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="biz.aQute.bnd.annotation"/>
@@ -1774,43 +1774,43 @@
     <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="org.apache.felix.gogo.runtime"/>
       <attribute name="type" value="osgi.bundle"/>
-      <attribute name="version" type="Version" value="0.14.0"/>
+      <attribute name="version" type="Version" value="0.12.1"/>
     </capability>
     <capability namespace="osgi.content">
-      <attribute name="osgi.content" value="1c1430085e8889684801a42c6eae571eff18550698a2e1e182d913147c487ea7"/>
-      <attribute name="url" value="org.apache.felix.gogo.runtime/org.apache.felix.gogo.runtime-0.14.0.jar"/>
-      <attribute name="size" type="Long" value="124802"/>
+      <attribute name="osgi.content" value="dfff97e5b2ebc4376fd109e910f5236b4394b44fa8d46b61c459ef0f7870074d"/>
+      <attribute name="url" value="org.apache.felix.gogo.runtime/org.apache.felix.gogo.runtime-0.12.1.jar"/>
+      <attribute name="size" type="Long" value="67933"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.wiring.bundle">
       <attribute name="osgi.wiring.bundle" value="org.apache.felix.gogo.runtime"/>
-      <attribute name="bundle-version" type="Version" value="0.14.0"/>
+      <attribute name="bundle-version" type="Version" value="0.12.1"/>
     </capability>
     <capability namespace="osgi.wiring.host">
       <attribute name="osgi.wiring.host" value="org.apache.felix.gogo.runtime"/>
-      <attribute name="bundle-version" type="Version" value="0.14.0"/>
+      <attribute name="bundle-version" type="Version" value="0.12.1"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="org.apache.felix.service.command"/>
-      <attribute name="version" type="Version" value="0.14.0"/>
+      <attribute name="version" type="Version" value="0.12.1"/>
       <attribute name="status" value="provisional"/>
       <attribute name="bundle-symbolic-name" value="org.apache.felix.gogo.runtime"/>
-      <attribute name="bundle-version" type="Version" value="0.14.0"/>
+      <attribute name="bundle-version" type="Version" value="0.12.1"/>
       <directive name="mandatory" value="status"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="org.apache.felix.gogo.api"/>
-      <attribute name="version" type="Version" value="0.14.0"/>
+      <attribute name="version" type="Version" value="0.12.1"/>
       <attribute name="bundle-symbolic-name" value="org.apache.felix.gogo.runtime"/>
-      <attribute name="bundle-version" type="Version" value="0.14.0"/>
+      <attribute name="bundle-version" type="Version" value="0.12.1"/>
       <directive name="uses" value="org.apache.felix.service.command"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="org.apache.felix.service.threadio"/>
-      <attribute name="version" type="Version" value="0.14.0"/>
+      <attribute name="version" type="Version" value="0.12.1"/>
       <attribute name="status" value="provisional"/>
       <attribute name="bundle-symbolic-name" value="org.apache.felix.gogo.runtime"/>
-      <attribute name="bundle-version" type="Version" value="0.14.0"/>
+      <attribute name="bundle-version" type="Version" value="0.12.1"/>
       <directive name="mandatory" value="status"/>
     </capability>
     <capability namespace="osgi.service">
@@ -1822,15 +1822,15 @@
       <directive name="effective" value="active"/>
     </capability>
     <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.felix.gogo.api)(version&gt;=0.14.0))"/>
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.felix.gogo.api)(version&gt;=0.12.1))"/>
     </requirement>
     <requirement namespace="osgi.wiring.package">
       <attribute name="status" value="provisional"/>
-      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.felix.service.command)(version&gt;=0.14.0))"/>
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.felix.service.command)(version&gt;=0.12.1))"/>
     </requirement>
     <requirement namespace="osgi.wiring.package">
       <attribute name="status" value="provisional"/>
-      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.felix.service.threadio)(version&gt;=0.14.0))"/>
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.felix.service.threadio)(version&gt;=0.12.1))"/>
     </requirement>
     <requirement namespace="osgi.wiring.package">
       <directive name="filter" value="(osgi.wiring.package=org.osgi.framework)"/>
