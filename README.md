@@ -7,15 +7,15 @@ A set of OSGi bundles for the development and running of the FlexiblePower Appli
 -plugin: \
          aQute.bnd.deployer.repository.FixedIndexedRepo;\
             name=FPAI Bundle Hub - Build;\
-            locations=https://raw.githubusercontent.com/flexiblepower/bundle-hub/split-repos/build/index.xml.gz;\
+            locations=https://raw.githubusercontent.com/flexiblepower/bundle-hub/split-repos/build/index.xml;\
             cache=${workspace}/cnf/cache,\
          aQute.bnd.deployer.repository.FixedIndexedRepo;\
             name=FPAI Bundle Hub - Run;\
-            locations=https://raw.githubusercontent.com/flexiblepower/bundle-hub/split-repos/run/index.xml.gz;\
+            locations=https://raw.githubusercontent.com/flexiblepower/bundle-hub/split-repos/run/index.xml;\
             cache=${workspace}/cnf/cache,\
          aQute.bnd.deployer.repository.FixedIndexedRepo;\
             name=FPAI Bundle Hub - Test;\
-            locations=https://raw.githubusercontent.com/flexiblepower/bundle-hub/split-repos/test/index.xml.gz;\
+            locations=https://raw.githubusercontent.com/flexiblepower/bundle-hub/split-repos/test/index.xml;\
             cache=${workspace}/cnf/cache,\
          #other repositories
 ```
