@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<repository increment="1427363401869" name="Run" xmlns="http://www.osgi.org/xmlns/repository/v1.0.0">
+<repository increment="1427465994001" name="Run" xmlns="http://www.osgi.org/xmlns/repository/v1.0.0">
   <resource>
     <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="biz.aQute.bnd.annotation"/>
@@ -914,6 +914,63 @@
   </resource>
   <resource>
     <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="com.eclipsesource.jaxrs.consumer"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" type="Version" value="3.1.0.201502251332"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="osgi.content" value="6d6538be2e152ebe55b6ba25aa4aff84c842ec60ab16a2174e33043336c61015"/>
+      <attribute name="url" value="com.eclipsesource.jaxrs.consumer/com.eclipsesource.jaxrs.consumer-3.1.0.jar"/>
+      <attribute name="size" type="Long" value="23668"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="osgi.wiring.bundle" value="com.eclipsesource.jaxrs.consumer"/>
+      <attribute name="bundle-version" type="Version" value="3.1.0.201502251332"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="osgi.wiring.host" value="com.eclipsesource.jaxrs.consumer"/>
+      <attribute name="bundle-version" type="Version" value="3.1.0.201502251332"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="com.eclipsesource.jaxrs.consumer"/>
+      <attribute name="version" type="Version" value="3.1.0"/>
+      <attribute name="bundle-symbolic-name" value="com.eclipsesource.jaxrs.consumer"/>
+      <attribute name="bundle-version" type="Version" value="3.1.0.201502251332"/>
+    </capability>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.net.ssl)"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.ws.rs)(version&gt;=2.0.0)(!(version&gt;=2.1.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.ws.rs.client)(version&gt;=2.0.0)(!(version&gt;=2.1.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.ws.rs.core)(version&gt;=2.0.0)(!(version&gt;=2.1.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.ws.rs.ext)(version&gt;=2.0.0)(!(version&gt;=2.1.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.glassfish.jersey.client)(version&gt;=2.3.0)(!(version&gt;=3.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.glassfish.jersey.media.multipart)(version&gt;=2.3.0)(!(version&gt;=3.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.glassfish.jersey.message.internal)(version&gt;=2.3.0)(!(version&gt;=3.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.osgi.framework)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.ee">
+      <directive name="filter" value="(&amp;(osgi.ee=JavaSE)(version=1.7))"/>
+    </requirement>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="com.eclipsesource.jaxrs.jersey-all"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="2.16.1"/>
@@ -1715,6 +1772,51 @@
     </requirement>
     <requirement namespace="osgi.wiring.package">
       <directive name="filter" value="(osgi.wiring.package=org.xml.sax.helpers)"/>
+    </requirement>
+    <requirement namespace="osgi.ee">
+      <directive name="filter" value="(&amp;(osgi.ee=JavaSE)(version=1.7))"/>
+    </requirement>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="com.eclipsesource.jaxrs.provider.gson"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" type="Version" value="2.1.0.201502251332"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="osgi.content" value="fff1b1f01e13147772fed08c4d6785500d4b086fa5d15173138190159f9c1333"/>
+      <attribute name="url" value="com.eclipsesource.jaxrs.provider.gson/com.eclipsesource.jaxrs.provider.gson-2.1.0.jar"/>
+      <attribute name="size" type="Long" value="5894"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="osgi.wiring.bundle" value="com.eclipsesource.jaxrs.provider.gson"/>
+      <attribute name="bundle-version" type="Version" value="2.1.0.201502251332"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="osgi.wiring.host" value="com.eclipsesource.jaxrs.provider.gson"/>
+      <attribute name="bundle-version" type="Version" value="2.1.0.201502251332"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="com.eclipsesource.jaxrs.provider.gson"/>
+      <attribute name="version" type="Version" value="2.1.0"/>
+      <attribute name="bundle-symbolic-name" value="com.eclipsesource.jaxrs.provider.gson"/>
+      <attribute name="bundle-version" type="Version" value="2.1.0.201502251332"/>
+    </capability>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.google.gson)(version&gt;=2.2.0)(!(version&gt;=3.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.ws.rs)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.ws.rs.core)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.ws.rs.ext)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.osgi.framework)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))"/>
     </requirement>
     <requirement namespace="osgi.ee">
       <directive name="filter" value="(&amp;(osgi.ee=JavaSE)(version=1.7))"/>
