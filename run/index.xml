@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<repository increment="1432885046915" name="Run" xmlns="http://www.osgi.org/xmlns/repository/v1.0.0">
+<repository increment="1433919131012" name="Run" xmlns="http://www.osgi.org/xmlns/repository/v1.0.0">
   <resource>
     <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="biz.aQute.bnd.annotation"/>
@@ -5323,6 +5323,1124 @@
     </requirement>
     <requirement namespace="osgi.wiring.package">
       <directive name="filter" value="(osgi.wiring.package=javax.net.ssl)"/>
+    </requirement>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" type="Version" value="3.9.0.2"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="osgi.content" value="66efbe4f01ec330dda08c98af9f2b770c9c788d8005f775c614deef0df756298"/>
+      <attribute name="url" value="org.apache.servicemix.bundles.poi/org.apache.servicemix.bundles.poi-3.9.0.jar"/>
+      <attribute name="size" type="Long" value="4127468"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="osgi.wiring.bundle" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="osgi.wiring.host" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hssf.record.cf"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.util,org.apache.poi.ss.util,org.apache.poi.hssf.record"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.ss.extractor"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.ss"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.ss.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hslf.model.textproperties"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.hslf.record,org.apache.poi.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.extractor"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi,org.apache.poi.hssf.extractor,org.apache.xmlbeans,org.apache.poi.hsmf,org.apache.poi.hsmf.extractor,org.apache.poi.xslf.extractor,org.apache.poi.poifs.filesystem,org.apache.poi.xssf.usermodel,org.apache.poi.xwpf.usermodel,org.apache.poi.hdgf.extractor,org.apache.poi.hslf.extractor,org.apache.poi.hsmf.datatypes,org.apache.poi.hwpf,org.apache.poi.openxml4j.exceptions,org.apache.poi.xwpf.extractor,org.apache.poi.hwpf.extractor,org.apache.poi.xslf.usermodel,org.apache.poi.hpbf.extractor,org.apache.poi.xssf.extractor,org.apache.poi.openxml4j.opc"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hslf"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.hslf.record,org.apache.poi.hslf.exceptions,org.apache.poi.poifs.filesystem,org.apache.poi.hslf.usermodel,org.apache.poi.util,org.apache.poi"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.poifs.filesystem"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.poifs.storage,org.apache.poi.hpsf,org.apache.poi.poifs.property,org.apache.poi.poifs.dev,org.apache.poi.util,org.apache.poi.poifs.common,org.apache.poi.poifs.nio"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.xslf.model"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.openxmlformats.schemas.drawingml.x2006.main,org.apache.xmlbeans,org.apache.poi.xslf.usermodel,org.apache.poi.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hdf.extractor"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.hdf.extractor.util,org.apache.poi.util,org.apache.poi.poifs.filesystem,org.apache.poi.hdf.extractor.data"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.xssf.usermodel"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.ss.usermodel,org.openxmlformats.schemas.spreadsheetml.x2006.main,org.apache.poi.ss.formula,org.apache.poi.ss,org.apache.xmlbeans,org.apache.poi.xssf.model,org.apache.poi.ss.formula.eval,org.apache.poi.ss.util,org.apache.poi.util,org.apache.poi.ss.formula.ptg,org.apache.poi.xssf.usermodel.extensions,org.apache.poi,org.apache.poi.xssf.usermodel.charts,org.apache.poi.ss.usermodel.charts,org.openxmlformats.schemas.officeDocument.x2006.relationships,org.openxmlformats.schemas.drawingml.x2006.chart,org.w3c.dom,javax.xml.namespace,org.apache.poi.openxml4j.opc,org.openxmlformats.schemas.drawingml.x2006.main,org.openxmlformats.schemas.drawingml.x2006.spreadsheetDrawing,org.apache.poi.hssf.util,schemasMicrosoftComOfficeExcel,schemasMicrosoftComVml,org.apache.poi.ss.formula.functions,org.apache.poi.ss.formula.udf,org.apache.poi.hssf.usermodel,org.apache.poi.xssf.usermodel.helpers,org.apache.poi.openxml4j.exceptions,org.apache.poi.hssf.record,org.apache.poi.hssf.record.cf,org.apache.poi.xssf.util,schemasMicrosoftComOfficeOffice,org.openxmlformats.schemas.officeDocument.x2006.extendedProperties"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.ddf"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hssf.util"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.ss.util,org.apache.poi.hssf.record,org.apache.poi.util,org.apache.poi.ss.usermodel,org.apache.poi.hssf.usermodel"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.xslf.util"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="javax.imageio,org.apache.poi.xslf.usermodel,org.apache.poi.openxml4j.opc"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hssf.record"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.hssf.util,org.apache.poi.util,org.apache.poi.ddf,org.apache.poi.ss.formula,org.apache.poi.ss.formula.ptg,org.apache.poi.ss.usermodel,org.apache.poi.ss.util,org.apache.poi.hssf.record.cf,org.apache.poi.hssf.model,org.apache.poi.hssf.usermodel,org.apache.poi.ss.formula.constant,org.apache.poi.hssf.record.common,org.apache.poi.hssf.record.cont,org.apache.poi.ss.formula.eval,org.apache.poi.hssf.record.pivottable,org.apache.poi.hssf.record.chart,org.apache.poi,org.apache.poi.hssf.record.crypto,org.apache.poi.ss"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hwpf.model.types"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.util,org.apache.poi.hwpf.usermodel,org.apache.poi.hwpf.model,org.apache.poi.hdf.model.hdftypes"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hmef"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.hsmf.datatypes,org.apache.poi.hmef.attribute,org.apache.poi.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hslf.dev"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.hslf.record,org.apache.poi.hslf,org.apache.poi.util,org.apache.poi.poifs.filesystem,org.apache.poi.hslf.usermodel,org.apache.poi.ddf,org.apache.poi.hslf.model.textproperties"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.openxml4j.util"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.openxml4j.exceptions"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hssf.record.chart"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.hssf.record,org.apache.poi.util,org.apache.poi.ss.formula,org.apache.poi.ss.formula.ptg"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hdf.extractor.data"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.hdf.extractor"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.xssf.extractor"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.xssf.eventusermodel,org.apache.poi.ss.usermodel,org.apache.xmlbeans,javax.xml.parsers,org.apache.poi.xssf.model,org.xml.sax,org.apache.poi,org.apache.poi.openxml4j.exceptions,org.apache.poi.openxml4j.opc,org.apache.poi.hssf.extractor,org.apache.poi.ss.extractor,org.apache.poi.xssf.usermodel,org.openxmlformats.schemas.spreadsheetml.x2006.main,javax.xml.transform.dom,org.w3c.dom,org.apache.poi.xssf.usermodel.helpers,org.apache.poi.ss.util,javax.xml.transform,javax.xml.transform.stream,javax.xml.validation,javax.xml.namespace,javax.xml.xpath,org.apache.poi.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hssf.extractor"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.hssf.record,org.apache.poi.hssf.eventusermodel,org.apache.poi.hssf.model,org.apache.poi.ss.formula.ptg,org.apache.poi.hssf.usermodel,org.apache.poi.hssf.record.common,org.apache.poi.hpsf,org.apache.poi.poifs.filesystem,org.apache.poi,org.apache.poi.ss.formula.eval,org.apache.poi.ss.usermodel,org.apache.poi.ss.extractor"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hpbf.model"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.poifs.filesystem,org.apache.poi.ddf,org.apache.poi.util,org.apache.poi.hpbf.model.qcbits"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hslf.usermodel"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.hslf.record,org.apache.poi.util,org.apache.poi.hslf.exceptions,org.apache.poi.hslf.blip,org.apache.poi.hslf.model,org.apache.poi.hslf.model.textproperties,org.apache.poi.hslf,org.apache.poi.ddf"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.ss.format"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.ss.usermodel,javax.swing,org.apache.poi.hssf.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hdgf.dev"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.hdgf.chunks,org.apache.poi.hdgf.pointers,org.apache.poi.poifs.filesystem,org.apache.poi.hdgf,org.apache.poi.hdgf.streams"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.openxml4j.opc.internal.unmarshallers"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.dom4j,org.dom4j.io,org.apache.poi.openxml4j.opc.internal,org.apache.poi.openxml4j.util,org.apache.poi.openxml4j.exceptions,org.apache.poi.openxml4j.opc"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hdgf.extractor"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.hdgf.chunks,org.apache.poi.poifs.filesystem,org.apache.poi,org.apache.poi.hdgf,org.apache.poi.hdgf.streams"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.poifs.storage"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.util,org.apache.poi.poifs.common,org.apache.poi.poifs.filesystem,org.apache.poi.poifs.property"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.poifs.property"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.poifs.filesystem,org.apache.poi.poifs.storage,org.apache.poi.util,org.apache.poi.poifs.common,org.apache.poi.hpsf,org.apache.poi.poifs.dev"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hpsf"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.util,org.apache.poi.hpsf.wellknown,org.apache.poi.poifs.filesystem"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.util"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.commons.logging,org.apache.poi.poifs.filesystem,org.apache.poi.hssf.usermodel,junit.framework,junit.textui,org.apache.poi.openxml4j.util,org.apache.poi.openxml4j.exceptions,org.apache.poi,org.apache.poi.openxml4j.opc"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.xwpf.model"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.openxmlformats.schemas.wordprocessingml.x2006.main,org.apache.poi.xwpf.usermodel,org.apache.xmlbeans,schemasMicrosoftComVml,schemasMicrosoftComOfficeOffice,org.apache.poi,org.apache.poi.openxml4j.opc"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.openxml4j.opc"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.openxml4j.opc.internal.unmarshallers,org.apache.poi.openxml4j.opc.internal,org.apache.poi.openxml4j.opc.internal.marshallers,org.apache.poi.util,org.apache.poi.openxml4j.util,org.apache.poi.openxml4j.exceptions,org.dom4j,org.dom4j.io"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hwpf.usermodel"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.hwpf.model,org.apache.poi.util,org.apache.poi.hwpf.model.types,org.apache.poi.hwpf,org.apache.poi.hwpf.sprm,org.apache.poi.poifs.filesystem,org.apache.poi.ddf"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hssf"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.ss.usermodel.contrib"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.ss.usermodel,org.apache.poi.ss.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hsmf.extractor"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.hsmf.datatypes,org.apache.poi.hsmf,org.apache.poi.util,org.apache.poi.hsmf.exceptions,org.apache.poi.poifs.filesystem,org.apache.poi"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hslf.blip"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.hslf.usermodel,javax.imageio,org.apache.poi.util,org.apache.poi.hslf.model,org.apache.poi.hslf.exceptions"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.xslf.extractor"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.xmlbeans,org.apache.poi.xslf,org.apache.poi.openxml4j.exceptions,org.openxmlformats.schemas.presentationml.x2006.main,org.apache.poi,org.apache.poi.xslf.usermodel,org.apache.poi.openxml4j.opc"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.xslf.model.geom"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.openxmlformats.schemas.drawingml.x2006.main,org.apache.xmlbeans,org.apache.poi.xslf.usermodel,org.w3c.dom"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hpsf.wellknown"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.openxml4j.opc.signature"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.openxml4j.opc.internal,org.apache.poi.openxml4j.exceptions,org.apache.poi.openxml4j.opc"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hdf.event"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.hdf.model.util,org.apache.poi.util,org.apache.poi.hdf.model.hdftypes"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.ss.formula.constant"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.util,org.apache.poi.ss.usermodel"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.ss.formula.ptg"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.ss.formula.function,org.apache.poi.ss.util,org.apache.poi.util,org.apache.poi.ss.formula,org.apache.poi.ss.usermodel,org.apache.poi.ss.formula.constant"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hpsf.extractor"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.poifs.filesystem,org.apache.poi,org.apache.poi.hpsf.wellknown,org.apache.poi.util,org.apache.poi.hpsf"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.xslf.usermodel"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.openxmlformats.schemas.drawingml.x2006.main,org.apache.xmlbeans,org.openxmlformats.schemas.presentationml.x2006.main,org.apache.poi.xslf.model,org.apache.poi.xslf.model.geom,org.apache.poi.util,org.apache.poi.openxml4j.opc,org.openxmlformats.schemas.officeDocument.x2006.relationships,org.apache.poi.xslf,javax.xml.namespace,org.apache.poi.openxml4j.exceptions,org.apache.poi,org.openxmlformats.schemas.drawingml.x2006.chart,org.w3c.dom,org.apache.xmlbeans.impl.values,javax.imageio"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.openxml4j.opc.internal.signature"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.openxml4j.opc.internal,org.apache.poi.openxml4j.exceptions,org.apache.poi.openxml4j.opc"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hssf.record.common"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.hssf.record,org.apache.poi.util,org.apache.poi.hssf.record.cont"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.xssf.streaming"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.ss.usermodel,org.apache.poi.ss.formula.eval,org.openxmlformats.schemas.spreadsheetml.x2006.main,org.apache.poi.ss.formula,org.apache.poi.ss.util,org.apache.poi.xssf.usermodel,org.apache.poi.ss,org.apache.poi.hssf.util,org.apache.poi.ss.formula.udf,org.apache.poi.openxml4j.opc"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.ss.formula.function"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hslf.data"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.xssf.eventusermodel"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="javax.xml.parsers,org.apache.poi.xssf.usermodel,org.xml.sax.helpers,org.apache.poi.openxml4j.opc,org.xml.sax,org.openxmlformats.schemas.spreadsheetml.x2006.main,org.apache.xmlbeans,org.apache.poi,org.apache.poi.openxml4j.exceptions,org.apache.poi.xssf.model,org.apache.poi.ss.usermodel"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.xwpf.usermodel"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.xmlbeans,org.openxmlformats.schemas.wordprocessingml.x2006.main,org.apache.poi,org.apache.poi.util,org.apache.xmlbeans.impl.xb.xmlschema,javax.xml.namespace,org.openxmlformats.schemas.officeDocument.x2006.extendedProperties,org.apache.poi.xwpf.model,org.apache.poi.openxml4j.exceptions,org.apache.poi.openxml4j.opc,org.w3c.dom,org.openxmlformats.schemas.drawingml.x2006.main,org.openxmlformats.schemas.drawingml.x2006.picture,org.apache.xmlbeans.impl.values,org.openxmlformats.schemas.drawingml.x2006.wordprocessingDrawing"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hslf.util"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hdf.model.util"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.hdf.model.hdftypes"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hssf.record.aggregates"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.ss.formula,org.apache.poi.ss.util,org.apache.poi.hssf.record,org.apache.poi.hssf.model,org.apache.poi.ss.formula.ptg,org.apache.poi.hssf.util,org.apache.poi.util,org.apache.poi.ss"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.contrib.poibrowser"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.hpsf,org.apache.poi.poifs.filesystem,javax.swing.tree,javax.swing,org.apache.poi.poifs.eventfilesystem"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.poifs.dev"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.poifs.filesystem,org.apache.poi.poifs.storage,org.apache.poi.poifs.property,org.apache.poi.util,org.apache.poi.poifs.common"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.ss.usermodel"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.ss.formula,org.apache.poi.ss.util,org.apache.poi.ss.formula.eval,org.apache.poi.ss.usermodel.charts,org.apache.poi.common.usermodel,org.apache.poi.hssf.util,org.apache.poi.ss.formula.udf,org.apache.poi.openxml4j.exceptions,org.apache.poi.poifs.filesystem,org.apache.poi,org.apache.poi.xssf.usermodel,org.apache.poi.hssf.usermodel,org.apache.poi.openxml4j.opc"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.xssf.usermodel.charts"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.ss.usermodel.charts,org.openxmlformats.schemas.drawingml.x2006.chart,org.apache.poi.xssf.usermodel,org.apache.poi.util,org.apache.poi.ss.usermodel"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.poifs.eventfilesystem"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.poifs.filesystem,org.apache.poi.poifs.storage,org.apache.poi.poifs.property,org.apache.poi.poifs.common"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hssf.record.pivottable"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.hssf.record,org.apache.poi.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hmef.extractor"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.hsmf.datatypes,org.apache.poi.hmef,org.apache.poi.hmef.attribute"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hmef.attribute"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.hsmf.datatypes,org.apache.poi.util,org.apache.poi.hpsf,org.apache.poi.hmef"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.xssf.usermodel.helpers"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.openxmlformats.schemas.spreadsheetml.x2006.main,org.apache.poi.ss.usermodel,org.apache.poi.xssf.util,org.apache.poi.ss.formula,org.apache.poi.ss.formula.ptg,org.apache.poi.xssf.usermodel,org.apache.poi.ss.util,org.apache.poi.xssf.model"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.poifs.nio"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.ss.formula.eval.forked"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.ss.formula.eval,org.apache.poi.ss.formula,org.apache.poi.ss.usermodel,org.apache.poi.ss.util,org.apache.poi.ss.formula.udf,org.apache.poi.ss.formula.ptg,org.apache.poi.hssf.usermodel"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hsmf.datatypes"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.hsmf,org.apache.poi.util,org.apache.poi.poifs.filesystem"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hssf.eventmodel"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.hssf.record"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hwpf"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.hwpf.model.io,org.apache.poi.util,org.apache.poi.poifs.filesystem,org.apache.poi.hwpf.usermodel,org.apache.poi.hwpf.model,org.apache.poi"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hssf.dev"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.hssf.record,org.apache.poi.hssf.model,org.apache.poi.poifs.filesystem,org.apache.poi.hssf.usermodel,org.apache.poi.ddf,org.apache.poi.util,org.apache.poi.hssf.record.pivottable,org.apache.poi.hssf.record.chart,org.apache.poi.hssf.eventusermodel,org.apache.poi.ss.formula.ptg"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hssf.model"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.hssf.record,org.apache.poi.hssf.usermodel,org.apache.poi.ddf,org.apache.poi.ss.formula,org.apache.poi.ss.formula.ptg,org.apache.poi.hssf.record.aggregates,org.apache.poi.hssf.util,org.apache.poi.ss.util,org.apache.poi.util,org.apache.poi.ss.usermodel,org.apache.poi.ss.formula.udf,org.apache.poi.ss.formula.functions,org.apache.poi.hssf.record.common"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hpbf.model.qcbits"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hwpf.sprm"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.util,org.apache.poi.hwpf.model,org.apache.poi.hwpf.usermodel"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hpbf.extractor"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.hpbf.model,org.apache.poi.hpbf,org.apache.poi.hpbf.model.qcbits,org.apache.poi.poifs.filesystem,org.apache.poi"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hsmf.parsers"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.hsmf.datatypes,org.apache.poi.util,org.apache.poi.poifs.filesystem"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.xslf"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.xmlbeans,org.apache.poi.util,org.apache.poi.openxml4j.exceptions,org.openxmlformats.schemas.presentationml.x2006.main,org.apache.poi,org.apache.poi.xslf.usermodel,org.apache.poi.openxml4j.opc"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.openxml4j.opc.internal"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.openxml4j.exceptions,org.dom4j,org.dom4j.io,org.apache.poi.openxml4j.opc,org.apache.poi.util,org.apache.poi.openxml4j.opc.internal.marshallers,org.apache.poi.openxml4j.util,org.apache.poi.openxml4j.opc.internal.unmarshallers"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.ss.util.cellwalk"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.ss.usermodel,org.apache.poi.ss.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hwpf.dev"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.util,org.apache.poi.hwpf.usermodel,org.apache.poi.hwpf,org.apache.poi.poifs.filesystem,org.apache.poi,org.apache.poi.hwpf.sprm,org.apache.poi.hwpf.model"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hslf.model"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.hslf.record,org.apache.poi.hslf.usermodel,org.apache.poi.util,org.apache.poi.hslf.exceptions,org.apache.poi.ddf,javax.imageio,org.apache.poi.hslf.blip,org.apache.poi.hslf.model.textproperties,org.apache.poi.sl.usermodel"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.common.usermodel"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.xssf.model"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.openxmlformats.schemas.spreadsheetml.x2006.main,org.apache.xmlbeans,org.apache.poi,org.apache.poi.openxml4j.opc,schemasMicrosoftComVml,org.apache.poi.xssf.usermodel,org.apache.poi.ss.formula.functions,org.apache.poi.util,org.apache.poi.ss.formula.udf,org.apache.poi.xssf.usermodel.helpers,org.apache.poi.ss.usermodel,org.apache.poi.xssf.usermodel.extensions,org.openxmlformats.schemas.drawingml.x2006.main"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.ss.formula.atp"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.ss.formula,org.apache.poi.ss.formula.eval,org.apache.poi.ss.formula.functions,org.apache.poi.ss.formula.udf,org.apache.poi.ss.formula.function,org.apache.poi.ss.usermodel"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.ss.formula.eval"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.ss.formula,org.apache.poi.ss.formula.ptg,org.apache.poi.ss.formula.functions,org.apache.poi.ss.usermodel,org.apache.poi.ss.formula.function,org.apache.poi.ss.formula.atp,org.apache.poi.ss.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.ss.util"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.ss,org.apache.poi.ss.formula,org.apache.poi.hssf.record,org.apache.poi.util,org.apache.poi.ss.usermodel,javax.imageio.metadata,javax.imageio,javax.imageio.stream,org.w3c.dom"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hssf.contrib.view"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="javax.swing.border,javax.swing,javax.swing.table,org.apache.poi.hssf.usermodel,org.apache.poi.hssf.util,javax.swing.plaf"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hdf.model.hdftypes.definitions"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.util,org.apache.poi.hdf.model.hdftypes"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.xssf.usermodel.extensions"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.openxmlformats.schemas.spreadsheetml.x2006.main,org.apache.poi.ss.usermodel,org.apache.poi.util,org.apache.poi.xssf.usermodel,org.apache.poi.xssf.model,org.apache.poi.hssf.usermodel,org.apache.poi.xssf.usermodel.helpers"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.xwpf.extractor"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.openxmlformats.schemas.wordprocessingml.x2006.main,org.apache.xmlbeans,org.apache.poi.xwpf.model,org.apache.poi.openxml4j.exceptions,org.apache.poi,org.apache.poi.xwpf.usermodel,org.apache.poi.openxml4j.opc"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hwpf.extractor"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.hwpf.converter,org.apache.poi.hwpf,org.apache.poi.poifs.filesystem,org.apache.poi,org.apache.poi.hwpf.usermodel,org.apache.poi.hwpf.model"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.poifs.common"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hssf.record.cont"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.hssf.record,org.apache.poi.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hdf.model"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.hdf.event,org.apache.poi.hdf.model.util,org.apache.poi.util,org.apache.poi.hdf.model.hdftypes,org.apache.poi.poifs.filesystem"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.dev"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.openxml4j.opc,javax.xml.transform,javax.xml.transform.stream,javax.xml.parsers,org.w3c.dom"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hslf.record"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.util,org.apache.poi.hslf.util,org.apache.poi.hslf.exceptions,org.apache.poi.poifs.filesystem,org.apache.poi.ddf,org.apache.poi.hslf.model.textproperties"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hssf.converter"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.ss.formula.eval,org.apache.poi.hwpf.converter,org.apache.poi.ss.usermodel,org.apache.poi.hssf.usermodel,org.w3c.dom,org.apache.poi.hssf.util,org.apache.poi.ss.util,org.apache.poi.util,javax.xml.parsers,javax.xml.transform.dom,javax.xml.transform,org.apache.poi.hpsf,javax.xml.transform.stream"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hdgf.chunks"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hdf.extractor.util"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.ss.formula"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.ss.formula.eval,org.apache.poi.ss.formula.ptg,org.apache.poi.ss.formula.udf,org.apache.poi.ss.util,org.apache.poi.util,org.apache.poi.ss,org.apache.poi.ss.formula.constant,org.apache.poi.ss.formula.function,org.apache.poi.ss.formula.functions,org.apache.poi.ss.formula.atp"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hssf.eventusermodel"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.hssf.record,org.apache.poi.hssf.model,org.apache.poi.hssf.usermodel,org.apache.poi.util,org.apache.poi.poifs.filesystem,org.apache.poi.hssf.eventusermodel.dummyrecord"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hdgf.pointers"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.ss.usermodel.charts"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.ss.usermodel,org.apache.poi.ss.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hsmf.exceptions"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hmef.dev"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.util,org.apache.poi.hmef.attribute"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hdgf.exceptions"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hssf.record.crypto"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.hssf.record,org.apache.poi.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hssf.eventusermodel.dummyrecord"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.hssf.record"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.openxml4j.opc.internal.marshallers"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.openxml4j.opc.internal,org.apache.poi.openxml4j.exceptions,org.apache.poi.openxml4j.opc,org.dom4j,org.apache.poi.openxml4j.util,org.apache.poi.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hdgf"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.hdgf.chunks,org.apache.poi.hdgf.pointers,org.apache.poi.util,org.apache.poi.poifs.filesystem,org.apache.poi,org.apache.poi.hdgf.streams"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.poifs.crypt"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="javax.crypto.spec,org.apache.poi.util,org.apache.poi,org.apache.poi.poifs.filesystem,javax.crypto,javax.xml.parsers,org.apache.commons.codec.binary,org.w3c.dom"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hwpf.converter"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.hwpf,org.w3c.dom,org.apache.poi.hwpf.usermodel,org.apache.poi.hpsf,org.apache.poi.util,org.apache.poi.poifs.filesystem,org.apache.poi.hwpf.model,javax.xml.parsers,javax.xml.transform.dom,javax.xml.transform,javax.xml.transform.stream"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.ss.formula.functions"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.ss.formula,org.apache.poi.ss.formula.eval,org.apache.poi.ss.util,org.apache.poi.ss.usermodel"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hpbf"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.hpbf.model,org.apache.poi.poifs.filesystem,org.apache.poi"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.util,org.apache.poi.hpsf,org.apache.poi.poifs.filesystem,org.apache.poi.hpsf.extractor,org.apache.poi.openxml4j.exceptions,org.apache.poi.poifs.common,org.apache.poi.openxml4j.opc,org.apache.xmlbeans,org.apache.poi.openxml4j.opc.internal,org.apache.poi.openxml4j.util,org.openxmlformats.schemas.officeDocument.x2006.customProperties,org.openxmlformats.schemas.officeDocument.x2006.extendedProperties"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hwpf.model"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.hwpf.model.types,org.apache.poi.util,org.apache.poi.hwpf.model.io,org.apache.poi.hwpf.sprm,org.apache.poi.hwpf.usermodel,org.apache.poi.ddf,org.apache.poi,org.apache.poi.hwpf"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hdgf.streams"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.hdgf.chunks,org.apache.poi.hdgf.pointers,org.apache.poi.util,org.apache.poi.hdgf,org.apache.poi.hdgf.exceptions"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.sl.usermodel"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.common.usermodel"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hwpf.model.io"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.contrib.metrics"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hsmf"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.hsmf.datatypes,org.apache.poi.hsmf.exceptions,org.apache.poi.hsmf.parsers,org.apache.poi.poifs.filesystem,org.apache.poi,org.apache.poi.hmef.attribute"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.xssf.util"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.openxmlformats.schemas.spreadsheetml.x2006.main"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hslf.exceptions"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.ss.formula.udf"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.ss.formula.functions,org.apache.poi.ss.formula.atp"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hssf.usermodel"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.ss.formula.ptg,org.apache.poi.ss.usermodel,org.apache.poi.hssf.model,org.apache.poi.hssf.util,org.apache.poi.util,org.apache.poi.ddf,org.apache.poi.hssf.record.cf,org.apache.poi.hssf.record,org.apache.poi.ss,org.apache.poi.ss.formula.eval,org.apache.poi.ss.util,org.apache.poi.hssf.record.aggregates,org.apache.poi.hssf.record.common,org.apache.poi.hssf.record.chart,org.apache.poi.ss.formula,org.apache.poi.ss.formula.udf,org.apache.poi.poifs.filesystem,org.apache.commons.codec.digest,org.apache.poi.hpsf,org.apache.poi,org.apache.poi.hssf"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hssf.usermodel.contrib"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.ss.usermodel,org.apache.poi.hssf.usermodel,org.apache.poi.ss.usermodel.contrib,org.apache.poi.ss.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hsmf.dev"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.hsmf.datatypes,org.apache.poi.hsmf.parsers,org.apache.poi.poifs.filesystem"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.xwpf"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hpbf.dev"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.util,org.apache.poi.poifs.filesystem,org.apache.poi.ddf,org.apache.poi.hpbf.model,org.apache.poi.hpbf,org.apache.poi.hpbf.model.qcbits"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hslf.extractor"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.hslf.usermodel,org.apache.poi.hslf,org.apache.poi.poifs.filesystem,org.apache.poi.hslf.model,org.apache.poi,org.apache.poi.hslf.record,org.apache.poi.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.poifs"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.hdf.model.hdftypes"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.poi.util,org.apache.poi.hdf.model.hdftypes.definitions,org.apache.poi.hdf.extractor"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.poi.xssf.dev"/>
+      <attribute name="version" type="Version" value="3.9.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.poi"/>
+      <attribute name="bundle-version" type="Version" value="3.9.0.2"/>
+      <directive name="uses" value="org.apache.xmlbeans,org.apache.poi.xssf.usermodel,org.apache.poi.openxml4j.opc"/>
+    </capability>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.crypto)"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.crypto.spec)"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.imageio)"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.imageio.metadata)"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.imageio.stream)"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.swing)"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.swing.border)"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.swing.plaf)"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.swing.table)"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.swing.tree)"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.xml.namespace)"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.xml.parsers)"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.xml.transform)"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.xml.transform.dom)"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.xml.transform.stream)"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.xml.validation)"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.xml.xpath)"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=junit.framework)"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=junit.textui)"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.codec.binary)(version&gt;=1.5.0)(!(version&gt;=3.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.codec.digest)(version&gt;=1.5.0)(!(version&gt;=3.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.apache.commons.logging)"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.apache.xmlbeans)"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.apache.xmlbeans.impl.values)"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.apache.xmlbeans.impl.xb.xmlschema)"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.dom4j)"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.dom4j.io)"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.openxmlformats.schemas.drawingml.x2006.chart)"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.openxmlformats.schemas.drawingml.x2006.main)"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.openxmlformats.schemas.drawingml.x2006.picture)"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.openxmlformats.schemas.drawingml.x2006.spreadsheetDrawing)"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.openxmlformats.schemas.drawingml.x2006.wordprocessingDrawing)"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.openxmlformats.schemas.officeDocument.x2006.customProperties)"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.openxmlformats.schemas.officeDocument.x2006.extendedProperties)"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.openxmlformats.schemas.officeDocument.x2006.relationships)"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.openxmlformats.schemas.presentationml.x2006.main)"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.openxmlformats.schemas.spreadsheetml.x2006.main)"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.openxmlformats.schemas.wordprocessingml.x2006.main)"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.w3c.dom)"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.xml.sax)"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.xml.sax.helpers)"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=schemasMicrosoftComOfficeExcel)"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=schemasMicrosoftComOfficeOffice)"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=schemasMicrosoftComVml)"/>
+      <directive name="resolution" value="optional"/>
     </requirement>
   </resource>
   <resource>
