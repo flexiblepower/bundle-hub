@@ -10,3 +10,10 @@ A set of OSGi bundles for the development and running of the FlexiblePower Appli
             cache=${workspace}/cnf/cache,\
          <other repositories>
 ```
+
+
+# Bundle-hub Questions?
+[Ask your question here](https://github.com/flexiblepower/bundle-hub/issues/new?title=Question:My%20Title&body)
+
+# Bugs
+[See FAN-wiki](https://github.com/flexiblepower/FAN-wiki/wiki/Bug-tracking-process)
